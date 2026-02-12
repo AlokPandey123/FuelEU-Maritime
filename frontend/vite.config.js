@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/routes': 'http://localhost:4000',
-      '/compliance': 'http://localhost:4000',
-      '/banking': 'http://localhost:4000',
-      '/pools': 'http://localhost:4000',
+      '/routes': 'https://fueleu-maritime-ogc0.onrender.com/',
+      '/compliance': 'https://fueleu-maritime-ogc0.onrender.com/',
+      '/banking': 'https://fueleu-maritime-ogc0.onrender.com/',
+      '/pools': 'https://fueleu-maritime-ogc0.onrender.com/',
     },
   },
 })
